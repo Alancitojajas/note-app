@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>Notas</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navegacion">
+        <img class="icono" src="img/user.png" alt="usuario" />
+
+        <a class="boton" href="#">Cerrar sesion</a>
+        <a class="boton" href="#">Comentarios</a>
+        <a class="boton" href="#">Ayuda</a>
+      </nav>
+    </header>
+
+    <main class="contenedor">
+   
+    </main>
+    <div class="ventana-flotante" id="miVentana">
+      <div class="contenido-ventana">
+        <form class="formulario" action="">
+          <p class="eliminar" id="cerrarVentana">Cancelar</p>
+
+          <h2 class="tituloLabel">Titulo:</h2>
+          <input maxlength="20" class="tituloInput" type="text" />
+
+          <h3 class="descripcionLabel">Descripcion:</h3>
+          <textarea class="descripcionInput" cols="30" rows="10"></textarea>
+
+          <button class="opcion agregar nuevaNota">Agregar</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="opciones">
+      <button id="abrirVentana" class="opcion agregar">Agregar nota</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
